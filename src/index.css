@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "./media.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto Condensed;
+}
+
+body {
+  background-color: #202023;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 48px 10px;
+  max-width: 980px;
+  margin: 0 auto 32px;
+}
+
+/* left cluster */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  color: #fff;
+  margin-right: 18px;
+}
+
+.nav-lists {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-lists a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.18s;
+}
+
+.nav-lists a:hover {
+  color: #8ee9e3;
+}
+
+/* right "Source" */
+.nav-source {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.04rem;
+  font-weight: 500;
+  transition: color 0.18s, opacity 0.18s;
+}
+
+.nav-source:hover {
+  color: #8ee9e3;
+}
+
+.nav-git {
+  display: block;
+  filter: contrast(1.1) brightness(1);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hero Section Styles */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 40px 20px;
+}
+
+.hero-animation {
+  width: 450px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* About Component Styles */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-name {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.about-title {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.about-image-container {
+  flex-shrink: 0;
+  margin-left: 30px;
+}
+
+.about-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+}
+
+.work-title {
+  font-weight: bold;
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.work-description {
+  color: #c6c6c6;
+  font-size: 1.12rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: 14px;
+}
+
+.bio-section {
+  margin-top: 32px;
+}
+
+.bio-title {
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.bio-timeline {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.bio-year {
+  font-weight: bold;
+  color: #b3b3b3;
+  margin-right: 10px;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.2em;
+}
+
+.bio-love {
+  margin-bottom: 20px;
+  color: #c6c6c6;
+  font-size: 1.2em;
+}
+
+.bio-heart {
+  font-weight: bold;
+  margin-right: 6px;
+  font-size: 1.6em;
+  text-decoration: underline;
+  margin-bottom: 7px;
+}
+
+.bio-links-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-top: 15PX;
+}
+
+.bio-social-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.bio-social-list li {
+  margin-bottom: 3px;
+}
+
+.bio-social-list a {
+  color: #8ee9e3;
+  text-decoration: none;
+}
+
+.bio-showcase {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 168px;
+  border-radius: 8px;
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid #333;
+  padding: 4px;
+  transition: border-color 0.2s;
+}
+
+.bio-card:hover {
+  border-color: #8ee9e3;
+}
+
+.bio-img {
+  width: 168px;
+  height: 86px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.bio-card-caption {
+  margin-top: 6px;
+  font-weight: bold;
+  color: #eee;
+  font-size: 0.97rem;
+  text-align: center;
+}
+
+.bio-card-desc {
+  font-weight: normal;
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+/* center the CTA */
+.contact-cta-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+/* keep your existing .contact-cta styles */
+.contact-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #7fe0d7;
+  color: #0b2725;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.06s ease, filter 0.15s ease, background 0.15s ease;
+}
+
+.contact-cta:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+
+/* footer line inside contact */
+.contact-footer {
+  text-align: center;
+  color: #a9a9a9;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
+.contact-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+/* Skills section */
+.skills-section {
+  margin-top: 24px;
+}
+
+.skills-title {
+  font-size: 1.56rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-decoration: underline;
+}
+.skills-subtitle {
+  color: #bfbfbf;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+/* Make skills horizontal with wrapping */
+.skills-grid {
+  display: flex; /* horizontal layout */
+  flex-wrap: wrap; /* move to next line when needed */
+  gap: 12px 16px; /* row and column gaps */
+  align-items: center; /* vertical centering within row */
+}
+
+/* Compact inline badge */
+.skill-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid #333;
+  border-radius: 999px; /* pill shape */
+  background: transparent;
+  line-height: 1;
+}
+
+/* Icon + name */
+.skill-icon {
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+.skill-name {
+  font-size: 0.95rem;
+  color: #eaeaea;
+}
+
+/* Hide the bar/percentage when using badge style */
+.skill-bar-container,
+.skill-bar,
+.skill-progress,
+.skill-percentage {
+  display: none !important;
+}
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* adjust spacing between icon and text */
+}
