@@ -27,7 +27,7 @@ const Contact = () => {
 
       {/* footer inside contact */}
       <div className="contact-footer">
-        © {year} with ❤️ Sarath. All Rights Reserved.
+        © {year} made with ❤️ Sarath. All Rights Reserved.
       </div>
     </section>
   );
