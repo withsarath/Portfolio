@@ -1,15 +1,6 @@
-// import profile from "../assets/Sarath1.jpg"
-// const About = () => {
-//   return <div>
-//     <h2>Sarath</h2>
-//     <p>Digital Craftsman ( Tech Enthusiast  / Developer / Designer )</p>
-//     <img src={profile} style={{width: 120, borderRadius: 500}} alt="image" />
-//   </div>;
-// };
 
-// export default About;
 
-import profile from "../assets/Sarath1.jpg";
+import profile from "../assets/ai5.jpg";
 
 const About = () => {
   return (
