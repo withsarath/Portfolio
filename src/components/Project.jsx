@@ -42,7 +42,7 @@ const Project = () => {
           </div>
         </a>
         <a
-          href="https://github.com/Sarath-33/DreamHire"
+          href="https://github.com/Sarath-33/talent-IQ/tree/main"
           target="_blank"
           rel="noopener noreferrer"
           className="bio-card"
