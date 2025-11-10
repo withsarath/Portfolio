@@ -1,6 +1,6 @@
 import brainbin from "../assets/brainbin.png"
-import dreamhire from "../assets/dreamhire.png"
 import moviedex from "../assets/moviedex.png"
+import talentIQ from "../assets/talent-iq.png"
 
 const Project = () => {
   return (
@@ -48,14 +48,14 @@ const Project = () => {
           className="bio-card"
         >
           <img
-            src={dreamhire}
+            src={talentIQ}
             alt="Your Product"
             className="bio-img"
           />
           <div className="bio-card-caption">
-            DreamHire
+            Talent-IQ
             <br />
-            <span className="bio-card-desc">A Job portal for job seekers</span>
+            <span className="bio-card-desc">Interview Platform with video call and chat</span>
           </div>
         </a>
       </div>
