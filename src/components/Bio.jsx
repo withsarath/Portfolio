@@ -17,8 +17,7 @@ const Bio = () => {
           Solutions]
         </div>
         <div>
-          <span className="bio-year">2024 - present</span> Working as a
-          Developer / Freelancer
+          <span className="bio-year">2024 - present</span> Personal Projects & Learning
         </div>
       </div>
       <div className="bio-love">

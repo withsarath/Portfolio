@@ -8,8 +8,9 @@ const Contact = () => {
     <section className="contact-container" id="contact">
       <div className="contact-title">Contact Me</div>
       <p className="contact-blurb">
-        Drop a note for collaborations, freelance work, or speaking invites.
-        Happy to chat about products, code, and design.
+        {/* Drop a note for collaborations, freelance work, or speaking invites.
+        Happy to chat about products, code, and design. */}
+        Open to internships, junior developer roles, and freelance work.
       </p>
 
       {/* centered CTA */}

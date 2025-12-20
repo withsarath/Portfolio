@@ -97,14 +97,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 10vh;
   padding: 40px 20px;
 }
 
 .hero-animation {
-  width: 450px;
+  width: 350px;
   margin: 0 auto;
   max-width: 100%;
+}
+.hero-para {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 37px;
 }
 
 /* About Component Styles */
@@ -211,7 +216,7 @@ a {
   margin-bottom: 10px;
   font-size: 1.5em;
   text-decoration: underline;
-  margin-top: 15PX;
+  margin-top: 15px;
 }
 
 .bio-social-list {
@@ -241,7 +246,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 168px;
+  width: 188px;
   border-radius: 8px;
   background: transparent;
   text-decoration: none;
@@ -255,24 +260,34 @@ a {
 }
 
 .bio-img {
-  width: 168px;
-  height: 86px;
+  width: 188px;
+  height: 100px;
   object-fit: cover;
   border-radius: 6px;
 }
 
 .bio-card-caption {
-  margin-top: 6px;
+ 
+  margin-top: 9px;
   font-weight: bold;
   color: #eee;
   font-size: 0.97rem;
   text-align: center;
+  flex-grow: 1;
 }
 
 .bio-card-desc {
   font-weight: normal;
   color: #b3b3b3;
   font-size: 0.9rem;
+}
+.project-para {
+  
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.3;
+  color: #cfcfcf;
 }
 
 /* center the CTA */
