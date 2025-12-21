@@ -36,17 +36,17 @@ const Project = () => {
           </div>
         </a>
         <a
-          href="https://github.com/Sarath-33/talent-IQ/tree/main"
+          href="https://talent-iq-pbuei.sevalla.app/" 
           target="_blank"
           rel="noopener noreferrer"
           className="bio-card"
         >
-          <img src={talentIQ} alt="Your Product" className="bio-img" />
+          <img src={talentIQ} alt="Your Product" className="bio-img" /> 
           <div className="bio-card-caption">
             Talent-IQ
             <br />
             {/* <span className="bio-card-desc">
-              Interview Platform with video call and chat
+              Interview Platform with video call and chat 
             </span> */}
             <p className="project-para">Developed a full-stack interview platform that enables users to conduct live coding interviews with real-time video calls, chat, and problem-solving features.</p>
           </div>
