@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {/* Right side: only Source link */}
       <a
-        href="https://github.com/Sarath-33"
+        href="https://github.com/withsarath"
         className="nav-source"
         target="_blank"
         rel="noopener noreferrer"

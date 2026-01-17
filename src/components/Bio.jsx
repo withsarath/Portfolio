@@ -41,7 +41,7 @@ const Bio = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/sarath-m-b7558b272/"
+            href="https://www.linkedin.com/in/withsarath/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ const Bio = () => {
         </li>
         <li>
           <a
-            href="https://github.com/Sarath-33"
+            href="https://github.com/withsarath"
             target="_blank"
             rel="noopener noreferrer"
           >
