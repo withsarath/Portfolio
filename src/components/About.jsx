@@ -1,6 +1,6 @@
 
 
-import profile from "../assets/ai5.jpg";
+import profile from "../assets/Sarath-3.png";
 
 const About = () => {
   return (
@@ -9,7 +9,8 @@ const About = () => {
       <div className="about-text">
         <h1 className="about-name">Sarath</h1>
         <p className="about-title">
-          Digital Craftsman ( Tech Enthusiast / Frontend / Backend )
+          Digital Craftsman ( Tech Enthusiast / Frontend, Backend & Everything In Between)
+          
         </p>
       </div>
 

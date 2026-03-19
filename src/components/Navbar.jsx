@@ -26,7 +26,7 @@
 
 // export default Navbar;
 import React from "react";
-import github from "../assets/github-icon.svg";
+import github from "../assets/github-white-icon.svg";
 
 const Navbar = () => {
   return (

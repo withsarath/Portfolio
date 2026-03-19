@@ -3,8 +3,8 @@ const Work = () => {
     <div>
       <h2 className="work-title">Work</h2>
       <p className="work-description">
-        Sarath is an aspiring{" "}
-        <span style={{ color: "#ff63c3" }}> full-stack developer</span> and{" "}
+        Sarath is an {" "}
+        <span style={{ color: "#ff63c3" }}> Full-stack developer</span> and{" "}
         <span style={{ color: "#ff63c3" }}> tech enthusiast</span> with a
         passion for crafting clean, functional, and creative digital
         experiences. He enjoys turning ideas into real applications, whether
