@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .nav-lists a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -92,7 +92,10 @@ body {
 }
 
 .skill-card {
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   cursor: pointer;
 }
 
@@ -296,7 +299,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 188px;
+  /* width: 188px; */
+  width: 200px;
   border-radius: 8px;
   background: transparent;
   text-decoration: none;
@@ -364,10 +368,26 @@ a {
     filter 0.15s ease,
     background 0.15s ease;
 }
+.project-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.project-buttons .btn {
+  padding: 5px 15px;
+  background: rgb(124, 58, 237);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: filter 0.15s ease;
+}
 
-.contact-cta:hover {
-  transform: translateY(-1px);
-  filter: brightness(1.02);
+.project-buttons .btn:hover {
+  filter: brightness(1.2);
 }
 
 /* footer line inside contact */
