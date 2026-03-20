@@ -33,7 +33,8 @@ const HeroSection = () => {
             {/* Hi, I'm <span style={{ color: "#ff63c3" }}>Sarath</span> — a
             Full-Stack Developer focused on building clean and scalable web
             applications. */}
-            Hi, I'm <span style={{ color: "#ff63c3" }}>Sarath</span> — a Full-Stack Developer based in India.
+            {/* Hi, I'm <span style={{ color: "#ff63c3" }}>Sarath</span> — a Full-Stack Developer based in India. */}
+            Hi, I'm <span style={{ color: "#ff63c3" }}>Sarath</span> — your average coffee enjoyer from socal trying to document the struggles of becoming a software engineer.
           </p>
           <a
             href={resume}
